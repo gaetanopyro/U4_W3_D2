@@ -26,7 +26,7 @@ public class EventoDAO {
     /*public Evento findById(long eventoId) */
 
 
-    public void findByIdAndDelete(long eventoId) {
+   /* public void findByIdAndDelete(long eventoId) {
 
-    }
+    }*/
 }
