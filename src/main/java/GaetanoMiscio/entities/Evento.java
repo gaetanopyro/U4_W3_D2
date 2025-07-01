@@ -24,8 +24,11 @@ public class Evento {
     @Column(name = "descrizione", nullable = false)
     private String descrizione;
 
+
     @Column(name = "tipoEvento")
+    @Enumerated(EnumType.STRING)
     private TipoEvento tipoEvento;
+
 
     @Column(name = "numeroMassimoPartecipanti")
     private int numeroMassimoPartecipanti;

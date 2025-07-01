@@ -17,8 +17,12 @@ public class Application {
         EventoDAO et = new EventoDAO(em);
 
         Evento party = new Evento("Natale", LocalDate.now(), "free drink", TipoEvento.PRIVATO, 1500);
+        Evento party2 = new Evento("Pool Party", LocalDate.now(), "white party", TipoEvento.PRIVATO, 2000);
+
 
         et.save(party);
+        et.save(party2);
+
         em.close();
         emf.close();
 

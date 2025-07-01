@@ -21,6 +21,8 @@ public class EventoDAO {
 
         transaction.commit();
 
+        System.out.println("L'Evento' " + newEvento.getTitolo() + " è stato correttamente salvato nel db");
+
     }
 
     /*public Evento findById(long eventoId) */
